@@ -1,0 +1,105 @@
+h1{
+  font-size:70px;
+  text-align:center;
+  font-family: 'Orbitron', sans-serif;
+  color:whitesmoke;
+}
+body{
+    background-color:skyblue;
+}
+.main_body{
+    width:350px;
+    height:420px;
+    display: block;
+    margin: 10% auto;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+.out_win{
+    width:320px;
+    height:100px;
+    background-color: black;
+    display: block;
+    color:white;
+    overflow: hidden;
+    font-size: 45px;
+    line-height:160px;
+    text-align: right;
+    vertical-align: middle;
+}
+.num_func{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
+.ac,.plus-minus,.percent,.divide{
+    border: 0.2px solid;
+    width:80px;
+    height:80px;
+    display: block;
+    background-color:whitesmoke;
+    float: left;
+    border-right:0px;
+    border-top:0px;
+}
+.seven,.eight,.nine,.multiply{
+    border: 0.2px solid;
+    width:80px;
+    height:80px;
+    display: block;
+    background-color: white;
+    float: left;
+    border-right:0px;
+    border-top:0px;
+}
+.four,.five,.six,.minus{
+    border: 0.2px solid;
+    border-right:0px;
+    width:80px;
+    height:80px;
+    display: block;
+    background-color: white;
+    float: left;
+    border-top:0px;
+}
+.one,.two,.three,.plus{
+    border: 0.2px solid;
+    width:80px;
+    height:80px;
+    display: block;
+    background-color: white;
+    float: left;
+    border-right:0px;
+    border-top:0px;
+}
+.zero,.dot,.equal{
+    border: 0.2px solid;
+    width:80px;
+    height:80px;
+    display: block;
+    background-color: white;
+    float: left;
+    border-right:0px;
+    border-top:0px;
+}
+.zero{
+    width: 160px;
+}
+.plus,.multiply,.divide,.minus,.equal{
+    background-color: #FF8300;
+    border-right:0.2px solid;
+    font-size: 30px;
+    color:white;
+    border-color: black;
+}
+.zero:hover,.dot:hover,.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover{
+    background-color: ghostwhite;
+}
+.plus:hover,.multiply:hover,.divide:hover,.minus:hover,.equal:hover{
+    border:1.5px solid;
+    background-color:#FF8A2E;
+    border-color: black;
+}
+.ac:hover,.plus-minus:hover,.percent:hover{
+    background-color: gainsboro;
+}
